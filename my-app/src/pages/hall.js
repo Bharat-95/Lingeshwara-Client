@@ -14,7 +14,7 @@ const Form = () => {
 
     try {
 
-      const response = await fetch('http://13.233.184.29:4000/hall')
+      const response = await fetch('http://20.197.16.153:4000/hall')
       const data = await response.json();
    
 

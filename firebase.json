@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "(Lingeshwara-admin)",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
