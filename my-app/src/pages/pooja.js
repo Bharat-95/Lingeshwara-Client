@@ -14,7 +14,7 @@ const Form = () => {
 
     try {
 
-      const response = await fetch('http://localhost:4000/pooja')
+      const response = await fetch('http://13.233.184.29:4000/pooja')
       const data = await response.json();
    
 

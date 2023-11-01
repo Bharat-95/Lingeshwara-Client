@@ -9,10 +9,11 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const router = useRouter();
 
+
   const handleClick = async () => {
     if (typeof window !== 'undefined') {
       try {
-        const response = await fetch('http://13.233.184.29:4000', {
+        const response = await fetch('http://13.233.184.29:4000/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
