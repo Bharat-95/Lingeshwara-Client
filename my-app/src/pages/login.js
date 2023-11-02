@@ -36,7 +36,7 @@ const Login = () => {
     <div className='flex flex-col space-y-10 items-center'>
       <div className='text-center text-4xl py-10'>Lingeshwara Tiles</div>
       <div className='text-center'>
-        Name:{' '}
+        Name:
         <input
           type='text'
           className='w-96 h-10 ml-8 text-black p-3'
@@ -45,7 +45,7 @@ const Login = () => {
         />
       </div>
       <div className='text-center'>
-        Password:{' '}
+        Password:
         <input
           type='password'
           className='w-96 h-10 ml-2 text-black p-3'
