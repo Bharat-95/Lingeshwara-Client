@@ -1,6 +1,7 @@
 import React, { useState , useEffect} from "react";
 import '../app/globals.css';
 import Header from './header';
+import Image from "next/image";
 
 const Form = () => {
   const [formdata, setFormData] = useState({ image: null, Title: "", Price: "" });
@@ -127,7 +128,7 @@ if(data)
   {data.map((Hall) => (
     <div key={Hall._id} className="m-4">
       <div>
-        <img src={`data:image/jpeg;base64,${Hall.image}`} alt="Image" className="w-auto h-96 pb-4" />
+        <Image src={`data:image/jpeg;base64,${Hall.image}`} alt="Image" className="w-auto h-96 pb-4" />
         <div className="text-center text-xl pb-2">{Hall.Title}</div>
         <div className="text-center pb-2">{Hall.Price}</div>
         <button onClick={() => handleDelete(Hall._id)} className="ml-[85px]">
