@@ -1,1 +1,0 @@
-# Lingeshwara-client
